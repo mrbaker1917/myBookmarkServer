@@ -49,10 +49,12 @@ memory = {}
 
 form = '''<!DOCTYPE html>
 <title>Bookmark Server</title>
-<div style="background-color: beige; padding: 10px; border-radius: 5px; border: 1px solid black; color:grey; font-weight: 900; width:50%;">
+<body style="background-color: mistyrose;">
+<div style="background-color: beige; padding: 20px; border-radius: 5px; border: 5px solid grey; color:grey; font-weight: 900; width:70%; margin: 0 auto; margin-top: 20px;">
+<h3>Welcome to my URL shortening site!</h3> <p>Instructions: Enter a website in the first field, then the short keyword for it in the next field, and click "Save it!" The site will save the short name for you.</p>
 <form method="POST">
     <label style="margin-top: 10px;">Long URI:
-        <input style="margin-top: 10px; margin-bottom:10px; border-radius:5px;" name="longuri">
+        <input style="margin-top: 10px; margin-bottom:10px; border-radius:5px; width: 75%;" name="longuri">
     </label>
     <br>
     <label style="margin-top: 10px;">Short name:
@@ -67,7 +69,11 @@ form = '''<!DOCTYPE html>
 {}
 </pre>
 </div>
+<div style="margin: 0 auto; width:25%; margin-top:40px; border-radius:5px; border: 1px solid white; padding: 10px;">
+<p align="center">Created by <a href="https://mrbaker1917.com" target="_blank" title="Click to see my portfolio!" style="text-decoration: none;">mrbaker1917</a></p>
 </div>
+</div>
+</body>
 '''
 
 
